@@ -1,0 +1,9 @@
+<div class="class">
+<form >
+  <input type="text" [(ngModel)]="name" name="name">
+  <input type="submit">
+</form>
+<div *ngIf="name !==''">
+  <p>Nome aqui: {{name}}</p>
+</div>
+</div>
